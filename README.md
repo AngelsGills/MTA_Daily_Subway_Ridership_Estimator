@@ -7,7 +7,7 @@ II. Introduction
 
 The MTA has been sharing the ridership and traffic data each day to help you understand how many people are using the services in and around New York City. All of the agency's services are updated to provide an estimated ridership number for each specific date. The data provided for all transit services is compared to a percent of a comparable pre-pandemic day. The project will utilize the available ridership data by the agency and contributing factors that effect overall ridership such as weather, public school session calendar, and holidays. All of the factors chosen have been shown to effect the overall ridership on a daily occasion.
 
-Materials and Methods
+III. Materials and Methods
 
 The contributing factors that will be used to train the ANN is chosen based on direct correlation to overall ridership and for its ease of availablity. The weather data used will be sourced from the National Centers for Environmental Information website, which allows users to download reported weather conditions for a selected city/region (Central Park/New York City). The public school calendar will also be used as a ridership factor considering in 2021-22, there were 1,058,888 students in the NYC school system, the largest school district in the United States. Lastly, holidays will be taken into account considering the reduced ridership impact of schools being closed and employeer's workday closures.
 
@@ -17,3 +17,5 @@ Upon receiving the MTA's ridership data and the NOAA daily summaries for the NY 
 
 Artifical Neural Network Model
 
+A sequential model consisting of a linear stack of layers in Keras will be used for the program. Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. The script allows the user to train a new ANN model or load an existing model. By selecting to train a model, the appropriate data file is read and the inputs and output is selected for the model. The model can be configured to have the appropriate desired number of neueron per hidden layer, aswell as the desired number of hidden layers. The model's activation function is responsible for transforming the summed weighted input from the node into the activation of the node or output for that input.
+The piecewise linear function/rectified linear activation function (relu) is chosen for the model, ensuring to output the input directly if it is positive, otherwise, it will output zero.
