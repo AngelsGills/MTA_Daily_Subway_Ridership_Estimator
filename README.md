@@ -22,4 +22,33 @@ The piecewise linear function/rectified linear activation function (relu) is cho
 
 The model consist of a arbituary configuration consisting of two hidden layers with four neurons and three neurons respectfully. The first hidden layer has a input shade consisting of the ten inputs, while the second hidden layer has three neurons, both consisting of a relu activation function. The output layer has a  linear activation function, also known as "no activation," or "identity function" (multiplied x1. 0), is where the activation is proportional to the input. Optimizer that implements the Adam algorithm.
 
-Compiling the model, the optimizer implements the Adam algorithm and computes the mean of squares of error between labels and predictions. Adam optimization is a stochastic gradient descent method that is based on adaptive estimation of first-order and second-order moments. The purpose of loss functions is to compute the quantity that a model should seek to minimize during training. Mean squared error is calculated as the average of the squared differences between the predicted and actual values. The squaring means that larger mistakes result in more error than smaller mistakes, meaning that the model is punished for making larger mistakes.
+Compiling the model, the optimizer implements the Adam algorithm and computes the mean of squares of error between labels and predictions. Adam optimization is a stochastic gradient descent method that is based on adaptive estimation of first-order and second-order moments. The purpose of loss functions is to compute the quantity that a model should seek to minimize during training. Mean squared error is calculated as the average of the squared differences between the predicted and actual values. The squaring means that larger mistakes result in more error than smaller mistakes, meaning that the model is punished for making larger mistakes. Lastly, the epoch for the model is arbiturary chosen at a value of 2000 iterations.
+
+IV. Results
+
+Once the ANN model has been trained, four predictions were made which consisted of two weekdays in the immediate future and two weekend days in the immediate past to test the accuracy of the model.
+
+Weekday in the immediate future (September 1 & September 2):
+
+Sep. 1
+![3](https://user-images.githubusercontent.com/112568703/189488376-9dff6fc8-55a2-47c0-84e1-4d55d84f0449.png)
+![7](https://user-images.githubusercontent.com/112568703/189488466-ff9686b9-4f80-44db-94ee-e62eedd7cfc6.png)
+![5](https://user-images.githubusercontent.com/112568703/189488408-2b38b628-fbc8-46a5-aaed-38966e6319fd.png)
+
+Sep. 2
+
+![9](https://user-images.githubusercontent.com/112568703/189488497-01f542cd-4e47-4e34-9610-8e4bd32d2cdb.png)
+![10](https://user-images.githubusercontent.com/112568703/189488523-5306f5c8-2b67-458f-9f38-ead735ffbfe3.png)
+
+Weekend in the immediate past (August 27 & September 28):
+
+Aug. 27
+![14](https://user-images.githubusercontent.com/112568703/189488608-94448239-f00c-49f4-bfad-91311dc7ebb6.png)
+![15](https://user-images.githubusercontent.com/112568703/189488612-26d03fdf-4542-4d8f-81ab-b840951582b0.png)
+
+Aug. 28
+![16](https://user-images.githubusercontent.com/112568703/189488622-a173ba73-a4f7-44e4-845f-ae173f8acd7f.png)
+![17](https://user-images.githubusercontent.com/112568703/189488635-75839776-c16f-4936-ac9c-7cad86f478f5.png)
+
+
+
