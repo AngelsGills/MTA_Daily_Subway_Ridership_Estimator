@@ -75,7 +75,7 @@ The model's training data set includes widely available metrics provided by the 
 
 Closing thoughts
 
-
+In conclusion, this project was made possible by the availability of public data provided. The project allowed me to undergo the process of reaching a unique project statement by gathering data, training a model, and considering the biases and improvement of the program. 
 
 
 
