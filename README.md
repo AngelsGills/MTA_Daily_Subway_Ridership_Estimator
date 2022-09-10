@@ -64,4 +64,18 @@ Discussion
 
 Numerically, the model was a greater accuracy when estimating daily weekday ridership. The model was consistent in weekday accuracy vs. weekend accurcay in both the immediate future and past. This project focused on subway ridership, however the data used in the model can also be used to estimate bus ridership and other transport service provided by the MTA.
 
+Potential Issues
+
+1. Bias
+The data used to train the model doesn't take into account many biases that have also been shown to effect transit rideship and or momentum/trends in the data. 
+Example 1: Consider a holiday falling in the middle of a week and the effects it may have on ridership versus a holiday falling at the start or end of a weekend. The data presented into the model will fail to distinguish the relationship/bias of a holiday to ridership.
+Example 2: Consider the end/return of the school year, where the momentum of ridership will increase/decrease appropriately. The data presented to the model will fail to accurately estimate ridership based on solely previous data.
+2. Lack of data
+The model's training data set includes widely available metrics provided by the MTA, NOAA, & DOE. Other forms of data that has shown to have an effect on ridership can be implemented to build a more accurate model such as employement in the local area, crime/safety statistics, traffic statistics, population trends, and much more.
+
+Closing thoughts
+
+
+
+
 
