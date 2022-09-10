@@ -60,4 +60,8 @@ Aug. 28
 
 Results shows a 90% accuracy for the recorded data on Aug. 28
 
+Discussion
+
+Numerically, the model was a greater accuracy when estimating daily weekday ridership. The model was consistent in weekday accuracy vs. weekend accurcay in both the immediate future and past. This project focused on subway ridership, however the data used in the model can also be used to estimate bus ridership and other transport service provided by the MTA.
+
 
