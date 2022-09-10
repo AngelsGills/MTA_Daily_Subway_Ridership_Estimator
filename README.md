@@ -35,20 +35,29 @@ Sep. 1
 ![7](https://user-images.githubusercontent.com/112568703/189488466-ff9686b9-4f80-44db-94ee-e62eedd7cfc6.png)
 ![5](https://user-images.githubusercontent.com/112568703/189488408-2b38b628-fbc8-46a5-aaed-38966e6319fd.png)
 
+Results shows a 99% accuracy for the recorded data on Sep. 1
+
 Sep. 2
 
 ![9](https://user-images.githubusercontent.com/112568703/189488497-01f542cd-4e47-4e34-9610-8e4bd32d2cdb.png)
 ![10](https://user-images.githubusercontent.com/112568703/189488523-5306f5c8-2b67-458f-9f38-ead735ffbfe3.png)
 
+Results shows a 99% accuracy for the recorded data on Sep. 2
+
 Weekend in the immediate past (August 27 & September 28):
 
 Aug. 27
+
 ![14](https://user-images.githubusercontent.com/112568703/189488608-94448239-f00c-49f4-bfad-91311dc7ebb6.png)
 ![15](https://user-images.githubusercontent.com/112568703/189488612-26d03fdf-4542-4d8f-81ab-b840951582b0.png)
 
+Results shows a 96% accuracy for the recorded data on Aug. 27
+
 Aug. 28
+
 ![16](https://user-images.githubusercontent.com/112568703/189488622-a173ba73-a4f7-44e4-845f-ae173f8acd7f.png)
 ![17](https://user-images.githubusercontent.com/112568703/189488635-75839776-c16f-4936-ac9c-7cad86f478f5.png)
 
+Results shows a 90% accuracy for the recorded data on Aug. 28
 
 
