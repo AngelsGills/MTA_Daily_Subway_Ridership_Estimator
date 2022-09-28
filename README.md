@@ -82,7 +82,7 @@ Example 2: Consider the end/return of the school year, where the momentum of rid
 
 2. Lack of data 
 
-The model's training data set includes widely available metrics provided by the MTA, NOAA, & DOE (Department of Education). Other forms of data that have shown to influence ridership can be implemented to build a more accurate model such as employment in the local area, crime/safety statistics, traffic statistics, population trends, and much more. 
+The model's training data set includes publicly available data provided by the MTA, NOAA, & DOE (Department of Education). Other forms of data that have shown to influence ridership can be implemented to build a more accurate model such as employment in the local area, crime/safety statistics, traffic statistics, population trends, and much more. 
 
 Closing thoughts 
 
